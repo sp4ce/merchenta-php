@@ -1,6 +1,6 @@
 Merchenta PHP SDK
 ===================
-[![Build Status](https://secure.travis-ci.org/sp4ce/merchenta-php.png?branch=master)](http://travis-ci.org/sp4ce/merchenta-php
+[![Build Status](https://secure.travis-ci.org/sp4ce/merchenta-php.png?branch=master)](http://travis-ci.org/sp4ce/merchenta-php)
 ## Installation
 
 ### Manual Installation

@@ -1,0 +1,7 @@
+{
+	"status": 400,
+	"error_code": "UNKNOWN_DATA_TYPE",
+	"error_message": "The data type 'not_a_real_data_type' is not recognized.",
+	"api_version": 1,
+	"time": "2013-03-20T07:31:58Z"
+}

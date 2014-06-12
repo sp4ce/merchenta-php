@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Merchenta\Auth\MerchentaAuth | Merchenta Php Documentation</title>
+
+	<script type="text/javascript" src="resources/combined.js?1748829536"></script>
+	<script type="text/javascript" src="elementlist.js?330520236"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Merchenta.html">Merchenta<span></span></a>
+						<ul>
+				<li class="active"><a href="namespace-Merchenta.Auth.html">Auth</a>
+						</li>
+				<li><a href="namespace-Merchenta.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Merchenta.Services.html">Services</a>
+						</li>
+				<li><a href="namespace-Merchenta.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Merchenta.Auth.MerchentaAuth.html">MerchentaAuth</a></li>
+				<li><a href="class-Merchenta.Auth.SessionDataStore.html">SessionDataStore</a></li>
+			</ul>
+
+			<h3>Interfaces</h3>
+			<ul>
+				<li><a href="class-Merchenta.Auth.DataStoreInterface.html">DataStoreInterface</a></li>
+				<li><a href="class-Merchenta.Auth.MerchentaAuthInterface.html">MerchentaAuthInterface</a></li>
+			</ul>
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Merchenta.Auth.html" title="Summary of Merchenta\Auth"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class MerchentaAuth</h1>
+
+
+	<div class="description">
+	
+<p>Class that implements necessary functionality to obtain an access token from
+a user</p>
+
+	</div>
+
+	<dl class="tree">
+		<dd style="padding-left:0px">
+<b><span>Merchenta\Auth\MerchentaAuth</span></b>			
+			 implements 
+				<a href="class-Merchenta.Auth.MerchentaAuthInterface.html"><span>Merchenta\Auth\MerchentaAuthInterface</span></a>
+			
+			
+		</dd>
+	</dl>
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Merchenta.html">Merchenta</a>\<a href="namespace-Merchenta.Auth.html">Auth</a><br />
+		<b>Package:</b> Auth<br />
+
+				<b>Author:</b>
+				Baptiste Pernet<br />
+		<b>Located at</b> <a href="source-class-Merchenta.Auth.MerchentaAuth.html#7-96" title="Go to source code">Merchenta/Auth/MerchentaAuth.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Merchenta.Auth.MerchentaAuth.html#40-54" title="Go to source code">__construct</a>( <span>string <var>$clientId</var></span>, <span>string <var>$clientSecret</var></span>, <span>object <var>$config</var></span>, <span>object <var>$restClient</var> = <span class="php-keyword1">null</span></span>, <span>object <var>$dataStore</var> = <span class="php-keyword1">null</span></span> )</code>
+
+		<div class="description short">
+			
+<p>Build an authentication object.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Build an authentication object.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$clientId</var></dt>
+					<dd><code>string</code><br>$clientId - id of the client in the Merchenta API.</dd>
+					<dt><var>$clientSecret</var></dt>
+					<dd><code>string</code><br>$clientSecret - secret access of the client in the Merchenta API.</dd>
+					<dt><var>$config</var></dt>
+					<dd><code>object</code><br>$config - configuration of the access to the Merchenta API.</dd>
+					<dt><var>$restClient</var></dt>
+					<dd><code>object</code><br>$restClient - optional, for testing purpose.</dd>
+					<dt><var>$dataStore</var></dt>
+					<dd><code>object</code><br>$dataStoreInterface - optional, for testing purpose.</dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getAccessToken" id="_getAccessToken">
+
+		<td class="attributes"><code>
+			 public 
+			array
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getAccessToken">#</a>
+		<code><a href="source-class-Merchenta.Auth.MerchentaAuth.html#56-95" title="Go to source code">getAccessToken</a>( )</code>
+
+		<div class="description short">
+			
+<p>Obtain an access token. This token is valid for two hours and need to be</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Obtain an access token. This token is valid for two hours and need to be</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>array</code><br />
+				</div>
+
+				<h4>Throws</h4>
+				<div class="list">
+					<code>Merchenta\Exceptions\Auth2Exception</code><br />
+				</div>
+
+
+
+				<h4>Implementation of</h4>
+				<div class="list"><code><a href="class-Merchenta.Auth.MerchentaAuthInterface.html#_getAccessToken">Merchenta\Auth\MerchentaAuthInterface::getAccessToken()</a></code></div>
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="clientId" id="$clientId">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Merchenta.Auth.MerchentaAuth.html#15-18" title="Go to source code"><var>$clientId</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$clientId" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>$clientId the Merchenta user.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>$clientId the Merchenta user.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	<tr data-order="clientSecret" id="$clientSecret">
+		<td class="attributes"><code>
+			public  
+			string
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Merchenta.Auth.MerchentaAuth.html#20-23" title="Go to source code"><var>$clientSecret</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$clientSecret" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>$clientSecret the password for the Perfect Audiance user.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>$clientSecret the password for the Perfect Audiance user.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Merchenta Php Documentation API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>

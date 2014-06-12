@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="generator" content="ApiGen 2.8.0" />
+
+	<title>Class Merchenta\Merchenta | Merchenta Php Documentation</title>
+
+	<script type="text/javascript" src="resources/combined.js?1748829536"></script>
+	<script type="text/javascript" src="elementlist.js?330520236"></script>
+	<link rel="stylesheet" type="text/css" media="all" href="resources/style.css?3505392360" />
+
+</head>
+
+<body>
+<div id="left">
+	<div id="menu">
+		<a href="index.html" title="Overview"><span>Overview</span></a>
+
+
+		<div id="groups">
+			<h3>Namespaces</h3>
+			<ul>
+				<li class="active"><a href="namespace-Merchenta.html">Merchenta<span></span></a>
+						<ul>
+				<li><a href="namespace-Merchenta.Auth.html">Auth</a>
+						</li>
+				<li><a href="namespace-Merchenta.Exceptions.html">Exceptions</a>
+						</li>
+				<li><a href="namespace-Merchenta.Services.html">Services</a>
+						</li>
+				<li><a href="namespace-Merchenta.Util.html">Util</a>
+						</li>
+							</ul></li>
+				<li><a href="namespace-PHP.html">PHP</a>
+						</li>
+			</ul>
+		</div>
+
+		<hr />
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li class="active"><a href="class-Merchenta.Merchenta.html">Merchenta</a></li>
+				<li><a href="class-Merchenta.SplClassLoader.html">SplClassLoader</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+<div id="rightInner">
+	<form id="search">
+		<input type="hidden" name="cx" value="" />
+		<input type="hidden" name="ie" value="UTF-8" />
+		<input type="text" name="q" class="text" />
+		<input type="submit" value="Search" />
+	</form>
+
+	<div id="navigation">
+		<ul>
+			<li>
+				<a href="index.html" title="Overview"><span>Overview</span></a>
+			</li>
+			<li>
+				<a href="namespace-Merchenta.html" title="Summary of Merchenta"><span>Namespace</span></a>
+			</li>
+			<li class="active">
+<span>Class</span>			</li>
+		</ul>
+		<ul>
+			<li>
+				<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+			</li>
+		</ul>
+		<ul>
+		</ul>
+	</div>
+
+<div id="content" class="class">
+	<h1>Class Merchenta</h1>
+
+
+	<div class="description">
+	
+<p>Exposes all implemented Merchenta API functionality.</p>
+
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="info">
+		
+		
+		<b>Namespace:</b> <a href="namespace-Merchenta.html">Merchenta</a><br />
+		<b>Package:</b> Merchenta<br />
+
+				<b>Author:</b>
+				Baptiste Pernet<br />
+				<b>Version:</b>
+				0.0.1<br />
+				<b>Link:</b>
+				<a href="http://support.perfectaudience.com/knowledgebase/topics/35920-api-documentation">http://support.perfectaudience.com/knowledgebase/topics/35920-api-documentation</a><br />
+		<b>Located at</b> <a href="source-class-Merchenta.Merchenta.html#10-47" title="Go to source code">Merchenta/Merchenta.php</a><br />
+	</div>
+
+
+
+	<table class="summary" id="methods">
+	<caption>Methods summary</caption>
+	<tr data-order="__construct" id="___construct">
+
+		<td class="attributes"><code>
+			 public 
+			
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#___construct">#</a>
+		<code><a href="source-class-Merchenta.Merchenta.html#26-36" title="Go to source code">__construct</a>( <span>string <var>$clientId</var></span>, <span>string <var>$clientSecret</var></span>, <span>mixed <var>$endpoint</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Class constructor Get the authentication service and initiate all the service
+objects.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Class constructor Get the authentication service and initiate all the service
+objects.</p>
+
+
+
+				<h4>Parameters</h4>
+				<div class="list"><dl>
+					<dt><var>$clientId</var></dt>
+					<dd><code>string</code><br>$clientId - Merchenta user id.</dd>
+					<dt><var>$clientSecret</var></dt>
+					<dd><code>string</code><br>$clientSecret - Merchenta user password.</dd>
+					<dt><var>$endpoint</var></dt>
+					<dd></dd>
+				</dl></div>
+
+
+
+
+
+		</div>
+		</div></td>
+	</tr>
+	<tr data-order="getCampaigns" id="_getCampaigns">
+
+		<td class="attributes"><code>
+			 public 
+			string
+			
+			</code>
+		</td>
+
+		<td class="name"><div>
+		<a class="anchor" href="#_getCampaigns">#</a>
+		<code><a href="source-class-Merchenta.Merchenta.html#38-46" title="Go to source code">getCampaigns</a>( <span>mixed <var>$dataType</var></span> )</code>
+
+		<div class="description short">
+			
+<p>Get the status of the reporting. Use the data status service to check when
+new performance data is available.</p>
+
+		</div>
+
+		<div class="description detailed hidden">
+			
+<p>Get the status of the reporting. Use the data status service to check when
+new performance data is available.</p>
+
+
+
+
+				<h4>Returns</h4>
+				<div class="list">
+					<code>string</code><br>- The UTC timestamp at which the data source was last updated.<br />
+				</div>
+
+
+				<h4>Params</h4>
+				<div class="list">
+						string $dataType - type of report we get the date: campaign_report, ad_report,
+conversion_report<br />
+				</div>
+
+
+		</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+
+
+
+
+
+
+	<table class="summary" id="properties">
+	<caption>Properties summary</caption>
+	<tr data-order="campaignService" id="$campaignService">
+		<td class="attributes"><code>
+			protected  
+			<code><a href="class-Merchenta.Services.CampaignService.html">Merchenta\Services\CampaignService</a></code>
+		</code></td>
+
+		<td class="name">
+				<a href="source-class-Merchenta.Merchenta.html#20-24" title="Go to source code"><var>$campaignService</var></a>
+		</td>
+		<td class="value"><code></code></td>
+		<td class="description"><div>
+			<a href="#$campaignService" class="anchor">#</a>
+
+			<div class="description short">
+				
+<p>Handles interaction with the reporting.</p>
+
+			</div>
+
+			<div class="description detailed hidden">
+				
+<p>Handles interaction with the reporting.</p>
+
+
+			</div>
+		</div></td>
+	</tr>
+	</table>
+
+
+
+
+
+
+</div>
+
+	<div id="footer">
+		Merchenta Php Documentation API documentation generated by <a href="http://apigen.org">ApiGen 2.8.0</a>
+	</div>
+</div>
+</div>
+</body>
+</html>
